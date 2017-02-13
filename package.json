@@ -1,0 +1,44 @@
+{
+  "name": "rollup-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp watch",
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tofuxb",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.7.2",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-postcss": "^6.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-collector": "^1.1.1",
+    "gulp-uglify": "^2.0.1",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-short": "^3.0.3",
+    "postcss-simple-vars": "^3.0.0",
+    "rollup": "^0.41.4",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-css-only": "^0.2.0",
+    "rollup-plugin-eslint": "^3.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-postcss": "^0.2.0",
+    "rollup-plugin-scss": "^0.2.0",
+    "rollup-watch": "^3.2.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
