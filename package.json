@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp watch",
-    "build": "gulp",
+    "server": "http-server",
+    "dev": "rm -rf dev && gulp watch",
+    "build": "rm -rf dist && gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tofuxb",
@@ -23,6 +24,7 @@
     "gulp-rev": "^7.1.2",
     "gulp-rev-collector": "^1.1.1",
     "gulp-uglify": "^2.0.1",
+    "http-server": "^0.9.0",
     "postcss-cssnext": "^2.9.0",
     "postcss-short": "^3.0.3",
     "rollup": "^0.41.4",

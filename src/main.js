@@ -1,7 +1,8 @@
 import './styles/index.css'
+import Flexible from './libs/flexible'
+import App from './Components/App'
 
-function sayHello () {
-  const name = 'Tofuxb'
-  document.getElementById('main').innerHTML = `Hello, ${name}`
-}
-window.onload = sayHello
+(function () {
+  Flexible(1080)
+  window.app = new App()
+})()
